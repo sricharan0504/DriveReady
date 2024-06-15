@@ -1,6 +1,3 @@
-*{
-    background-color: whitesmoke;
-}
 #idp {
     color: orange;
 }
@@ -25,13 +22,22 @@
     border-bottom: 20px dashed yellow;
 }
 .parent {
-    padding: 10px;
+    margin: 50px;
+    background-color: turquoise;
+    padding: 20px;
     border-top: 20px solid red;
     border-left: 20px solid blue;
     border-right: 20px solid green;
-    border-bottom: 20px solid yellow;
-    /* width: 80%; */
+    border-bottom: 20px solid yellow;    /* width: 100%;  */
     font-size: 25px;
-    max-width: 1000px;
-    min-width: 500px;
+    max-width: 900px;
+    min-width: 50px;
+    /* border-radius: 20px; */
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    box-shadow: 7px 7px 9px;
 }
+/* .parent:hover {
+    color: turquoise;
+    background-color: black;
+} */
