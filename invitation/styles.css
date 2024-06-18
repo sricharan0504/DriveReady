@@ -1,0 +1,23 @@
+.box {
+    background-image: url("bgimage.jpeg");
+    height: 100svh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.main-heading {
+    padding-top: 95px;
+    font-family: "Sofia", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: brown;
+
+}
+.weds {
+    padding-top: 15px;
+    font-family: "Audiowide", sans-serif;
+    color: brown;
+    font-size: 20px;
+}

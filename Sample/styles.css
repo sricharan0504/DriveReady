@@ -28,7 +28,8 @@
     border-top: 20px solid red;
     border-left: 20px solid blue;
     border-right: 20px solid green;
-    border-bottom: 20px solid yellow;    /* width: 100%;  */
+    border-bottom: 20px solid yellow;    
+    /* width: 100%;  */
     font-size: 25px;
     max-width: 900px;
     min-width: 50px;
@@ -41,3 +42,45 @@
     color: turquoise;
     background-color: black;
 } */
+
+/* .bg {
+    background-image: url("/images.jpeg");
+    height: 100svh;
+    width: 100%;
+    font-weight: 900;
+    font-size: 80px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: transparent;
+    background-clip: text;
+} */
+ .out {
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    position: relative;
+ }
+ .in{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+ }
+ body {
+    height: 250svh;
+ }
+ .fix {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position: fixed;
+ }
+ .stck {
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    position: sticky;
+    top: 50px;
+ }
