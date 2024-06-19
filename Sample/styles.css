@@ -86,10 +86,25 @@
  } */
 
  table,td {
-    border: 1px solid black;
+    border: 1px solid white;
     border-collapse: collapse;
     padding: 10px;
+    text-align: center;
+    overflow: hidden;
  }
- table:first-child {
-    background-color: turquoise;
+ table {
+    border-radius: 10px;
+ }
+ tr:nth-child(odd){
+    background-color: pink;
+ }
+ tr:nth-child(1) {
+    background-color: springgreen;
+    font-weight: 900;
+ }
+ tr:nth-child(even) {
+    background-color: skyblue;
+ }
+ tr:hover {
+    background-color: darkorange;
  }
