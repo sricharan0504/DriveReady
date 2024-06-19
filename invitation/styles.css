@@ -1,7 +1,7 @@
 .box {
     background-image: url("bgimage.jpeg");
     height: 100svh;
-    width: 100%;
+    width: 100svh;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;

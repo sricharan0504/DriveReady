@@ -1,0 +1,232 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.container {
+    height: 100svh;
+    width: 100%;
+    border: 2px solid black;
+}
+.cloud1 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    background-color: skyblue;
+    position: relative;
+    top: -20px;
+    left: -30px;
+    border-radius: 100%;
+}
+.cloud2 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    background-color: skyblue;
+    position: relative;
+    top: -70px;
+    left: -60px;
+    border-radius: 100%;
+}
+.cloud3 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    background-color: skyblue;
+    position: relative;
+    top: -80px;
+    left: -80px;
+    border-radius: 100%;
+}
+.cloud4 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    background-color: skyblue;
+    position: relative;
+    top: -70px;
+    left: -100px;
+    border-radius: 100%;
+}
+.cloud5 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    background-color: skyblue;
+    position: relative;
+    top: -90px;
+    left: -120px;
+    border-radius: 100%;
+}
+.cloud6 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    background-color: skyblue;
+    position: relative;
+    top: -90px;
+    left: -140px;
+    border-radius: 100%;
+}
+.cloud7 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    background-color: skyblue;
+    position: relative;
+    top: -60px;
+    left: -170px;
+    border-radius: 100%;
+}
+.cloud8 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    background-color: skyblue;
+    position: relative;
+    top: -80px;
+    left: -190px;
+    border-radius: 100%;
+}
+.cloud9 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    background-color: skyblue;
+    position: relative;
+    top: -200px;
+    right: -1000px;
+    border-radius: 100%;
+}
+.cloud10 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    background-color: skyblue;
+    position: relative;
+    top: -250px;
+    left: 980px; ;
+    border-radius: 100%;
+}
+.cloud11 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 1px solid transparent;
+    background-color: skyblue;
+    position: relative;
+    top: -190px;
+    left: 920px; ;
+    border-radius: 100%;
+}
+.sun {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 3px solid transparent;
+    background-color: orange;
+    position: relative;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px 8px orange;
+    left: 300px;
+    top: -140px;
+}
+.road {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.r0 {
+    height: 20px;
+    width: 50px;
+    background-color: white;
+    margin-right: 30px;
+    display: inline-block; 
+}
+.r1 {
+    height: 20px;
+    width: 100px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 30px;
+}
+.r2 {
+    height: 20px;
+    width: 50px;
+    background-color: white;
+    display: inline-block; 
+}
+.below {
+    height: 60px;
+    width: 150px;
+    background-color: red;
+    position: relative;
+    top: -70px;
+    margin-left: 21%;
+}
+.tyre1 {
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: 7px;
+    left: 18px;
+}
+.tyre2 {
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 100%;
+    position: relative;
+    top: -35px;
+    left: 90px;
+}
+.above {
+    height:40px;
+    width: 100px;
+    border: 2px solid white;
+    background-color: brown;
+    position: relative;
+    left: 300px;
+    top: -70px;
+    border-top-right-radius: 80%;
+    border-top-left-radius: 80%;
+}
+.headlight1 {
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    border: 2px solid blue;
+    position: relative;
+    left: 136px;
+    top: 12px;
+    border-radius: 100%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.headlight2 {
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    border: 2px solid blue;
+    position: relative;
+    left: 136px;
+    top: 12px;
+    border-radius: 100%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
