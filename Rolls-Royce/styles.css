@@ -1,0 +1,59 @@
+.inline {
+    /* background-color: rgb(253, 236, 236); */
+    background-color: #f4f4f4;
+    height: 410px;
+    padding: 7px;
+    width: 212px;
+    border: 5px solid silver;
+    border-radius: 30px;
+    box-shadow: 0px 2px 5px grey;
+}
+.main-border {
+    height: 400px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 30px;
+    position: relative;
+}
+.top-line {
+    height: 0;
+    width: 100%;
+    border: 2px solid black;
+    position: absolute;
+    top: 70px;
+}
+.top-content {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Myriad Pro', sans-serif;
+    top: 3%;
+    left: 9%;
+}
+.r1 {
+    font-size: 230px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.r2 {
+    font-size: 230px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+
+}
+.below-line {
+    height: 0;
+    width: 100%;
+    border: 2px solid black;
+    position: absolute;
+    top: 320px;
+}
+.below-content {
+    position: absolute;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Myriad Pro', sans-serif;
+    top: 330px;
+}

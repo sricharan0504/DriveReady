@@ -84,7 +84,7 @@
     position: sticky;
     top: 50px;
  } */
-
+/* 
  table,td {
     border: 1px solid white;
     border-collapse: collapse;
@@ -107,4 +107,71 @@
  }
  tr:hover {
     background-color: darkorange;
+ } */
+
+ .Parent1 {
+   position: relative;
+   height: 50px;
+   width: 120px;
  }
+ .child1 {
+   border: 2px solid black;
+   padding: 7px;
+   font-size: 20px;
+   border-radius: 10px;
+   position: absolute;
+   cursor: pointer;
+ }
+ .options {
+   border: 1px solid black;
+   padding: 15px;
+ }
+ .child2 {
+   width: 100px;
+   height: 50px;
+   display: none;
+   position: absolute;
+   top: 42px;
+   left: 7px;
+ }
+ .Parent1:hover .child2 {
+   display: block;
+ }
+.child1:hover {
+   background-color: black;
+   color: white;
+}
+.options:hover {
+   background-color: brown;
+   color: white;
+}
+.Parent1:hover .child1 {
+   display: none;
+}
+
+.flex-parent {
+   height: 600px;
+   width: 100%;
+   border: 2px solid black;
+   background-color: blue;
+   /* display: flex; */
+   /* justify-content: space-around; */
+   /* justify-content: space-between; */
+   /* justify-content: space-evenly; */
+   /* justify-content: center;
+   align-items: center; 
+   flex-wrap: wrap; */
+   display: grid;
+   grid-template-rows:  1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.flex-child {
+   height: 150px;
+   width: 150px;
+   border: 1px solid black;
+   background-color: yellow;
+   font-size: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
