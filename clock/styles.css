@@ -15,6 +15,7 @@ body{
 	border-radius: 50%;
 	position: relative;
 	background-image: url("https://i.pinimg.com/736x/f9/36/c5/f936c5a35c35c3f4d7c498fb8edad0f1.jpg");
+	box-shadow: 0px 0px 2px black;
 }
 .seconds{
 	position: absolute;
