@@ -1,0 +1,92 @@
+body {
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    height: 300px;
+    width: 500px;
+    background-image: url(./backgrounf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    box-shadow: 0px 0px 7px black;
+    border-radius: 20px;
+    position: relative;
+    transition: transform 0.2s;
+}
+.sbi {
+    height: 15%;
+    width: 30%;
+    position: absolute;
+    top: 5%;
+    left: 67%;
+}
+.chip {
+    height: 17%;
+    width: 15%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.simply-save {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 16%;
+    left: 68%;
+}
+.adv {
+    color: silver;
+    font-size: 15px;
+    position: absolute;
+    left: 72%;
+    top: 35%;
+}
+
+.card-num {
+    font-size: 35px;
+    font-family: 'OCR-A', monospace;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+.valid-thru {
+    color: silver;
+    font-size: 10px;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+.valid-date {
+    color: white;
+    font-family: 'OCR-A', monospace;
+    font-size: 20px;
+    position: absolute;
+    top: 67%;
+    left: 47%;
+}
+.my-name {
+    color: white;
+    font-family: Roboto;
+    font-size: 27px;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+.visa {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px black;
+}
