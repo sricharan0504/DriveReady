@@ -1,0 +1,12 @@
+.media-quaries {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+ }
+ @media screen and (max-width:650px){
+    .media-quaries  {
+       background-color: blue;
+       height: 300px;
+       width: 300px;
+    }
+ }

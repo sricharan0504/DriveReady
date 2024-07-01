@@ -1,0 +1,437 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    height: 100svh;
+    width: 100%;
+}
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    z-index: 100;
+    /* position: fixed; */
+}
+.logo {
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-image: url("https://www.altlights.com/static/media/Logo_Image.30031c07f18c8695da51.png");
+    background-size: 100% 100%;
+}
+.nav-bar {
+    height: 100px;
+    width: 80%;
+    position: relative;
+}
+.nav-items {
+    font-size: 20px;
+    font-weight: 700;
+    /* font-family: "Kanit", sans-serif;  */
+    font-family: "Montserrat", sans-serif;
+    height: 100px;
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    left: 150px;
+    cursor: pointer;
+}
+.nav-item1{
+    width:65px;
+    position: relative;
+}
+.nav-item2 {
+    width: 85px;
+    position: relative;
+}
+.nav-item3 {
+    width: 65px;
+    position: relative;
+}
+.nav-item4 {
+    width: 115px;
+    position: relative;
+}
+.nav-item5 {
+    width: 85px;
+    position: relative;
+}
+.strip {
+    height: 3px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #FF0000;
+    position: absolute;
+    top: 35px;
+    display: none;
+}
+.nav-item1:hover .strip{
+    display: block;
+}
+.nav-item2:hover .strip{
+    display: block;
+}
+.nav-item3:hover .strip{
+    display: block;
+}
+.nav-item4:hover .strip{
+    display: block;
+}
+.nav-item5:hover .strip{
+    display: block;
+}
+.menu-bar {
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    right: 40px;
+    display: none;
+}
+@media screen and (max-width:950px){
+    .nav-items{
+        display: none;
+    }
+    .menu-bar {
+        display: block;
+    }
+}
+.main-image {
+    height: 650px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url("./bg3.jpg");
+
+}
+.heading {
+    width: fit-content;
+    font-family: "Montserrat";
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    left: 730px;
+    top: 200px;
+
+}
+.caption {
+    width: fit-content;
+    color: black;
+    font-size: 25px;
+    font-family:"Kanit";
+    position: relative;
+    left: 750px;
+    top: 200px;
+}
+@media screen and (min-width:769px) and (max-width:1160px){
+    .heading {
+        font-size: 45px;
+        left: 480px;
+        top: 180px;
+    }
+    .main-image {
+        height: 550px;
+        width: 100%;
+    }
+    .caption {
+        font-size: 20px;
+        left: 480px;
+        top: 180px;
+    }
+}
+@media screen and (max-width:870px) {
+    .heading {
+        font-size: 40px;
+        left: 380px;
+        top: 200px;
+    }
+    .main-image {
+        height: 525px;
+        width: 100%;
+    }
+    .logo {
+        height: 30px;
+        width: 120px;
+    }
+    .caption {
+        font-size: 20px;
+        left: 380px;
+        top: 200px;
+    }
+}
+@media screen and (min-width:500px) and (max-width : 869px) {
+    .heading {
+        font-size: 35px;
+        left: 390px;
+        top: 150px;
+    }
+    .main-image {
+        height: 500px;
+        width: 100%;
+    }
+    .caption {
+        font-size: 15px;
+        left: 400px;
+        top: 150px;
+    }
+}
+@media screen and (min-width :500px) and (max-width : 700px){
+    .heading {
+        font-size: 30px;
+        left: 290px;
+        top: 100px;
+    }
+    .main-image {
+        height: 380px;
+        width: 100%;
+    }
+    .caption {
+        font-size: 15px;
+        left: 290px;
+        top: 100px;
+    }
+}
+@media screen and (max-width : 550px){
+    .heading {
+        font-size: 27px;
+        left: 220px;
+        top: 100px;
+    }
+    .main-image {
+        height: 330px;
+        width: 100%;
+    }
+    .caption {
+        font-size: 15px;
+        left: 220px;
+        top: 100px;
+    }
+} 
+.explore-section {
+    height: 155px;
+    width: 100%;
+    text-align: center;  
+    /* background-color: #F4F4F4; */
+}
+.explore {
+    position: relative;
+    top: 40px;
+    font-size: 40px;
+    font-family:"Kanit";
+    font-weight: 500;
+}
+.explore-middle {
+    color: #C30000;
+}
+.explore-items {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    /* background-color: #F4F4F4; */
+}
+.item {
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-family: "Kanit";
+    border: 1px solid #C30000;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+    position: relative;
+}
+.i1 {
+    background-color: #C30000;
+    color: white;
+}
+.item:hover {
+    background-color: #C30000;
+    color: white;
+}
+.explore-items:has(.i2:hover) .i1{
+    background-color: white;
+    color: black;
+}
+.explore-items:has(.i3:hover) .i1{
+    background-color: white;
+    color: black;
+}
+.explore-items:has(.i4:hover) .i1{
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width:710px){
+    .item {
+        flex-wrap: wrap;
+        margin: 10px;
+        top: 35px;
+        }
+    .matter1 {
+        margin-top: 25px;
+    }
+    .matter2 {
+        margin-top: 25px;
+    }
+    .matter3 {
+        margin-top: 25px;    
+    }
+    .matter4 {
+        margin-top: 25px;    
+    }
+}
+.matter {
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+    width: 80%;
+    text-align: center;
+    font-family: "Kanit";
+    position: relative;
+    top: 5%;
+}
+.matter2 {
+    display: none;
+}
+.matter3 {
+    display: none;
+}
+.matter4 {
+    display: none;
+}
+
+.explore-items:has(.i2:hover) .matter .matter2{
+    display: block;
+}
+.explore-items:has(.i3:hover) .matter .matter3{
+    display: block;
+}
+.explore-items:has(.i4:hover) .matter .matter4{
+    display: block;
+}
+.explore-items:has(.i2:hover) .matter .matter1{
+    display: none;
+}.explore-items:has(.i3:hover) .matter .matter1{
+    display: none;
+}.explore-items:has(.i4:hover) .matter .matter1{
+    display: none;
+}
+.cards {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.card img{
+    height: 350px;
+    width: 275px;
+    border-radius: 25px; 
+    position: relative;
+}
+.c1,.c3 {
+    opacity: 0.5;
+}
+.c2{
+    transition: transform 1s;
+}
+.c2:hover {
+    transform: scale(1.1);
+}
+.symbol{
+    color: #FF0000;
+    font-size: 20px;
+    border: 1px solid #FF0000;
+    border-radius: 100%;
+    padding: 20px;
+}
+.symbol:hover {
+    background-color: #FF0000;
+    color: white;
+}
+@media screen and (max-width:1050px) {
+    .card img{
+        height: 300px;
+        width: 250px;
+        border-radius: 25px; 
+    }
+    .symbol {
+        padding: 15px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:900px) {
+    .c1{
+        display: none;
+    }
+    .c3{
+        display: none;
+    }
+    .card img{
+        height: 400px;
+        width: 300px;
+        position: relative;
+        top: 20px;
+    }
+    .symbol {
+        padding: 20px;
+    }
+}
+@media screen and (max-width:710px){
+    .card img{
+        height: 400px;
+        width: 300px;
+        position: relative;
+        top: 100px;
+    }
+    .symbol {
+        position: relative;
+        top: 100px ;
+    }
+    .c1{
+        display: none;
+    }
+    .c3{
+        display: none;
+    }
+}
+@media screen and (max-width:630px){
+    .card img{
+        height: 400px;
+        width: 300px;
+        position: relative;
+        top: 150px;
+    }
+    .symbol {
+        position: relative;
+        top: 150px ;
+    }
+    .c1{
+        display: none;
+    }
+    .c3{
+        display: none;
+    }
+}
+.clients {
+    text-align: center;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    
+}
+.client-img {
+    display: flex;
+    flex-wrap: wrap;
+    height: 280px;
+    width: 420px;
+    border: 2px solid black;
+    margin: 30px;
+}
